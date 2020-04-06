@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Ci_ychn7ga0</folder>
+    <filename>vlcsnap-2020-03-20-12h52m19s263.png</filename>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>jockey</name>
+        <bndbox>
+            <xmin>1313</xmin>
+            <ymin>422</ymin>
+            <xmax>1461</xmax>
+            <ymax>666</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>jockey</name>
+        <bndbox>
+            <xmin>1176</xmin>
+            <ymin>436</ymin>
+            <xmax>1257</xmax>
+            <ymax>614</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>jockey</name>
+        <bndbox>
+            <xmin>573</xmin>
+            <ymin>381</ymin>
+            <xmax>697</xmax>
+            <ymax>609</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,36 @@
+<annotation>
+    <folder>upwork</folder>
+    <filename>vlcsnap-2020-03-20-13h13m37s525.png</filename>
+    <size>
+        <width>832</width>
+        <height>468</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>jockey</name>
+        <bndbox>
+            <xmin>242</xmin>
+            <ymin>87</ymin>
+            <xmax>355</xmax>
+            <ymax>231</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>jockey</name>
+        <bndbox>
+            <xmin>358</xmin>
+            <ymin>44</ymin>
+            <xmax>456</xmax>
+            <ymax>169</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>jockey</name>
+        <bndbox>
+            <xmin>467</xmin>
+            <ymin>70</ymin>
+            <xmax>585</xmax>
+            <ymax>240</ymax>
+        </bndbox>
+    </object>
+</annotation>
