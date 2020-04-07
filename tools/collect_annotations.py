@@ -17,13 +17,9 @@ class AnnotationInfo(object):
 def parse_xml(xml_file_path, images_dir):
     tree = ET.parse(xml_file_path)
     root = tree.getroot()
-    # print(root)
-
     filename = root.find("filename").text
     full_image_path = os.path.join(images_dir, filename)
     
-    # print(root.filename)
-
     bboxes = []
     for object_node in root.findall("object"):
         bndbox = object_node.find("bndbox")
@@ -31,7 +27,6 @@ def parse_xml(xml_file_path, images_dir):
         xmax = int(bndbox.find("xmax").text)
         ymin = int(bndbox.find("ymin").text)
         ymax = int(bndbox.find("ymax").text)
-        # print(xmin, xmax, ymin, ymax)
         bboxes.append((xmin, ymin, xmax, ymax))
     return AnnotationInfo(full_image_path, filename, bboxes)
 
@@ -55,13 +50,9 @@ def get_annotations(base_dir):
     return all_annotations
 
 def main():
-    # xml_path = "data/raw/Ci_ychn7ga0_ann/vlcsnap-2020-03-20-12h53m27s066.xml"
-    # filename, bboxes = parse_xml(xml_path)
-    # print (filename, bboxes)
-    # return 
     all_annotations = get_annotations(data_dir)
     return
-    # for file in os.listdir(data_dir):
+
 
 
 if __name__ == "__main__":
